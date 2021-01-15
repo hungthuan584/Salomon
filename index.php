@@ -28,7 +28,8 @@
         Xin chào <b><?=$hoTen?></b> <br>
         Mật khẩu của bạn là <b><?=$matKhau?></b>
     </div>
-
+    
+    <h1>Test GitDesktop</h1>
 
     
 </body>
