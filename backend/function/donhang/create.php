@@ -17,11 +17,10 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
-                <!-- sidebar -->
-                <?php include_once(__DIR__ . '/../../layouts/partials/sidebar.php'); ?>
-                <!-- end sidebar -->
-            </div>
+
+            <!-- sidebar -->
+            <?php include_once(__DIR__ . '/../../layouts/partials/sidebar.php'); ?>
+            <!-- end sidebar -->
             <!-- Content -->
             <div class="col-md-9">
                 <?php
@@ -75,7 +74,7 @@ EOT;
 
                 <h2>Thêm mới đơn hàng</h2>
                 <form name="frmDonHang" method="POST" action="">
-                    <h3>Thông tin đơn hàng</h3>
+                    <h4>Thông tin đơn hàng</h4>
                     <div class="form-group">
                         <label for="">Khách hàng</label>
                         <select name="kh_tendangnhap" id="kh_tendangnhap" class="form-control">
@@ -114,7 +113,7 @@ EOT;
                         </div>
                     </div>
                     <fieldset id="chiTietDonHangContainer">
-                        <h3>Chi tiết đơn hàng</h3>
+                        <h4>Chi tiết đơn hàng</h4>
                         <div class="row">
                             <div class="col">
                                 <label>Sản phẩm: </label>
