@@ -38,7 +38,7 @@
 EOT;
 
         //Thực thi
-        mysqli_query($conn,$sql);
+        mysqli_query($conn,$sql);  
     }
     ?>
 </body>
