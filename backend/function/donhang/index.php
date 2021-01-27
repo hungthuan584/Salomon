@@ -66,6 +66,7 @@ EOT;
                     );
                 }
                 ?>
+                <a href="create.php" class="btn btn-primary">Thêm mới</a>
 
                 <table id="tblDH" width="100%" class="table table-bodered">
                     <thead>
@@ -101,6 +102,7 @@ EOT;
                                 <td style="text-align: right;"> <?= $dh['TongThanhTien']; ?> </td>
                                 <td>
                                     <a class="btn btn-primary" href="print.php?dh_ma=<?= $dh['dh_ma']; ?>">In</a>
+                                    <a class="btn btn-danger" href="delete.php?dh_ma=<?= $dh['dh_ma']; ?>">Xóa</a>
                                 </td>
 
                             </tr>

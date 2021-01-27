@@ -41,8 +41,8 @@
                   include_once(__DIR__ . '/../../../dbconnect.php');
 
                     // 2. Chuẩn bị câu truy vấn $sql
-                  $lsp_ten = $_POST['lsp_ten'];
-                  $lsp_mota = $_POST['lsp_mota'];
+                  $lsp_ten = htmlentities($_POST['lsp_ten']);
+                  $lsp_mota = htmlentities($_POST['lsp_mota']);
 
                   // Kiểm tra ràng buộc dữ liệu (Validation)
                   // Tạo biến lỗi để chứa thông báo lỗi
