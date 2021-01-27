@@ -22,7 +22,7 @@
         //Chuẩn bị câu lệnh
         $maloai = $_POST['lsp_ma'];
         // $ten = $_POST['lsp_ten'];
-        // $mota = $_POST['lsp_mota'];
+        // $mota = $_POST['lsp_mota'];    
 
         // $sql = "INSERT INTO loaisanpham(lsp_ten, lsp_mota) VALUES ('$ten', '$mota');";
 //         $sql = <<<EOT
